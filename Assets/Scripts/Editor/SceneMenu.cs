@@ -20,7 +20,7 @@ public static class SceneMenu
         OpenScene(SceneUtils.Names.Scene2);
     }
 
-    [MenuItem("Scenes/SampleScene3")]
+    [MenuItem("Scenes/Scene3")]
     static void OpenScene3()
     {
         OpenScene(SceneUtils.Names.Scene3);
