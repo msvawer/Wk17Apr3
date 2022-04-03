@@ -727,6 +727,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1495127954}
     m_Modifications:
+    - target: {fileID: 5246707794181778190, guid: 1be27b61c71046a42bca6d837232c417,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf526087ea38294449c8894831c33f2f, type: 2}
     - target: {fileID: 7835574255541103020, guid: 1be27b61c71046a42bca6d837232c417,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -795,6 +800,49 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 579336575}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &619763557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 619763559}
+  - component: {fileID: 619763558}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &619763558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619763557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba64c982d4299114797d16dbfdb52854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &619763559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619763557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.13112861, y: -0.3671177, z: 0.56023514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &935545875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -802,6 +850,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 118532836}
     m_Modifications:
+    - target: {fileID: 3530487465501598155, guid: 496da9ca93972d644b2bbb33bff700ad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf526087ea38294449c8894831c33f2f, type: 2}
     - target: {fileID: 8494180260306726126, guid: 496da9ca93972d644b2bbb33bff700ad,
         type: 3}
       propertyPath: m_LocalPosition.x
